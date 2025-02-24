@@ -3,6 +3,9 @@
 ## Descrição
 Este projeto tem como objetivo automatizar testes de um aplicativo móvel que auxilia na decisão entre álcool ou gasolina. A automação foi desenvolvida utilizando **Java 21**, **Appium**, **JUnit Jupiter** e **Allure Reports** para garantir testes eficientes, confiáveis e bem documentados.
 
+##Page Object Model (POM)
+O projeto utiliza o padrão Page Object Model (POM) para organizar e reutilizar códigos relacionados à interação com elementos da interface do aplicativo. Esse padrão melhora a manutenção e facilita a escrita de novos testes.
+
 ## Tecnologias Utilizadas
 - **Java 21**: Linguagem de programação utilizada no projeto.
 - **Appium 9.4.0**: Framework para automação de testes mobile.
