@@ -2,7 +2,9 @@ package tribo.qa.alcoolGasolina.test;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.qameta.allure.*;
-import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 import tribo.qa.alcoolGasolina.core.BaseTest;
 import tribo.qa.alcoolGasolina.core.DriverFactory;
 import tribo.qa.alcoolGasolina.page.AlcoolGasolinaPage;
@@ -22,6 +24,7 @@ public class AlcoolGasolinaTest extends BaseTest {
     public static void startAppium() {
        driver = DriverFactory.getDriver();
     }
+
 
     @Test
     @Epic(createAddressPage)
